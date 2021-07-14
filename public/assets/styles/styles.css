@@ -479,7 +479,7 @@ footer.footer p.small a:hover, footer.footer p.small a.focus {
 #hero {
   width: 100%;
   height: 30vh;
-  background: url("../images/background.jpg") top left;
+  background: url("../images/hero2.jpg") top left;
   background-size: cover;
   position: relative;
 }
@@ -502,7 +502,7 @@ footer.footer p.small a:hover, footer.footer p.small a.focus {
 
 section.pricing {
   background: #007bff;
-  background: linear-gradient(to right, #0062E6, #33AEFF);
+  background: linear-gradient(to right, #1e5eb5, #0006ff);
 }
 
 .pricing .card {

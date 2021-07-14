@@ -1,8 +1,6 @@
-<template>
-  
+<template>  
 <!-- Navigation -->
-<header>  
-
+<header> 
 <!-- Navbar -->
  <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <!-- Container wrapper -->
@@ -57,14 +55,11 @@
           <button type="button" class="fa fa-user btn btn-primary me-3">
             Acesso Logista
           </button>
-        </li>
-        
+        </li>        
       </ul>
       <!-- Left links -->
 
-      <div class="d-flex align-items-center">
-        
-                
+      <div class="d-flex align-items-center">  
       </div>
     </div>
     <!-- Collapsible wrapper -->
@@ -80,8 +75,7 @@
       <h1>Esqueça planilhas com a Mawa Post</h1>
     <h3>
       <p>Somos uma plataforma de Dropshipping Nacional que conecta lojistas e fornecedores com um clique!</p>
-    </h3> 
-        
+    </h3>         
     <!--<a class="btn btn-primary btn-xl smooth-scroll" href="#About">Find Out More</a>-->
   </div>
   <!--<div><img src="assets/images/mawa1.png" class="rounded float-right" alt="Imagem responsiva"></div>-->
@@ -90,7 +84,7 @@
 <!-- Header Ends -->
 
 
-<!-- How It Works Starts -->
+<!-- Como funciona Starts -->
 <section id="About" class="content-section">
   <div class="container">
     <div class="row">
@@ -123,7 +117,7 @@
     </div>
   </div>
 </section>
-<!-- How It Works Ends -->
+<!-- Como funciona Ends -->
 
 
 <!-- Auxiliar Sobre Nós -->
@@ -145,7 +139,7 @@
   </section>
 
 
-<!-- About Us Starts -->
+<!-- Sobre Starts -->
 <section id="Services" class="content-section" >
   <div class="container text-center">
     <div class="row">
@@ -165,6 +159,8 @@
     </div>
   </div>
 </section>
+<!-- Sobre Ends -->
+
 
 <!-- Logista Start -->
 <section id="About" class="content-section">
@@ -204,11 +200,11 @@
 <section class="pricing py-5"> 
   <div class="container">
     <h1 style="font-size:60px; color:white">Como funciona o plano gratuito?</h1>
-    <p style="color:white">Você tem uma semana para usúfruir da nossa plataforma de forma totalmente gratuita. Sinta-se a vontade para cancelar quando quiser.</p>
+    <p style="color:white; font-size:20px">Você tem uma semana para usúfruir da nossa plataforma de forma totalmente gratuita. Sinta-se a vontade para cancelar quando quiser.</p>
     <h1 style="color:white">14 dias GRÁTIS</h1>
     <hr>
     <div class="row">      
-      <!-- Free Tier -->
+      <!-- Plano Mensal -->
       <div class="col-lg-4">
         <div class="card mb-5 mb-lg-0">
           <div class="card-body">
@@ -220,7 +216,7 @@
           </div>
         </div>
       </div>
-      <!-- Plus Tier -->
+      <!-- Plano anual -->
       <div class="col-lg-4">
         <div class="card mb-5 mb-lg-0">
           <div class="card-body">
@@ -233,17 +229,15 @@
           </div>
         </div>
       </div>
-      <!-- Pro Tier -->
+      <!-- Plano semestral -->
       <div class="col-lg-4">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title text-muted text-uppercase text-center">Plano</h5>
             <h3 class="card-title text-muted text-uppercase text-center">Semestral</h3>
             <p>6x</p><h6 class="card-price text-center">R$92,87<span class="period">/month</span></h6>
-            <span class="period">ou R$539,40 à vista</span>
-            
-            <hr>   
-                    
+            <span class="period">ou R$539,40 à vista</span>            
+            <hr>                    
             <a href="#" class="btn btn-block btn-primary text-uppercase">Assinar</a>
           </div>
         </div>
@@ -251,25 +245,6 @@
     </div>
   </div>
 </section>
-
-
-<!-- Auxiliar -->
-<section id="hero2" class="d-flex align-items-center">
-    <div class="container" data-aos="zoom-out" data-aos-delay="100">
-      <div class="row">
-        <div class="col-md-3 col-sm-6 col-lg-6">
-          <h1 style="color:white; text-align:left " >Pronto para alcançar mais resultados?</h1>
-          <h4 style="color:white; text-align:left ">Fale com nosso time e aproveite todos os recursos
-            da Mawa Post para sua loja ser um sucesso.
-          </h4>
-        </div>
-        <div class="col-md-3 col-sm-6 col-lg-6">
-          <button type="submit" class="btn btn-primary btn-lg">Quero mais sucesso agora</button>
-        </div>
-      </div>      
-      
-    </div>
-  </section>
 
 <!-- Sobre Starts -->
 <section id="Services" class="content-section">
@@ -322,14 +297,72 @@
 </section>        
 <!-- Sobre Ends -->
 
-<!-- CLIENTES -->
+<!-- Caracteristica assinaturas Start -->
+<section id="About" class="content-section">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-lg-5">
+        <h1 style="font-size:60px; text-align:left">Características das assinaturas</h1>
+        <img src="assets/images/mawa5.png" class="img-fluid rounded mx-auto d-block img-responsive" alt="Imagem responsiva" >
+      </div> 
+      <div class="col-lg-7 col-md-3 col-sm-6">        
+        <p style="font-size:20px; color:#102a68" class="lead text-left">
+          <span class="fa fa-check"></span>
+          Fornecedores com menor preço e maior margem de lucros;
+        </p>
+        <p style="font-size:20px; color:#102a68" class="lead text-left"><span class="fa fa-check"></span>
+        Tudo automatizado, assim como Dsers e Oberlo;
+        </p>
+        <p style="font-size:20px; color:#102a68" class="lead text-left"><span class="fa fa-check"></span>
+        Opção de Logística integrada com a plataforma;
+        </p>
+        <p style="font-size:20px; color:#102a68" class="lead text-left"><span class="fa fa-check"></span>
+        Preços menores ou similares ao do Aliexpress;
+        </p>   
+        <p style="font-size:20px; color:#102a68" class="lead text-left"><span class="fa fa-check"></span>
+        Produtos validados de alta conversão;
+        </p>   
+        <p style="font-size:20px; color:#102a68" class="lead text-left"><span class="fa fa-check"></span>
+        Excelentes Prazos de entrega;
+        </p>  
+        <p style="font-size:20px; color:#102a68" class="lead text-left"><span class="fa fa-check"></span>
+        Vendas ilimitadas;
+        </p>
+        <p style="font-size:20px; color:#102a68" class="lead text-left"><span class="fa fa-check"></span>
+        Suporte online.
+        </p> 
+      </div>           
+    </div>
+  </div>
+</section>
+<!-- Caracteristica assinaturas Ends -->
+
+<!-- Imagem Auxiliar -->
+<section id="hero2" class="d-flex align-items-center">
+    <div class="container" data-aos="zoom-out" data-aos-delay="100">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 col-lg-6">
+          <h1 style="color:white; text-align:left " >Gostaria de ser um fornecedor Mawa?</h1>
+          <h4 style="color:white; text-align:left ">Você fornece ou distribui algum produto e quer utilizar a nossa plataforma para obter 
+todas as vantagens de automatização de pedidos? Clique no botão e saiba mais.
+          </h4>
+        </div>
+        <div class="col-md-3 col-sm-6 col-lg-6">
+          <button type="submit" class="btn btn-primary btn-lg">Quero mais sucesso agora</button>
+        </div>
+      </div>      
+      
+    </div>
+  </section>
+
+<!-- Clientes -->
 <section id="Testimonials" class="content-section">
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
         <div class="block-heading">
-           <h1 style="font-size:60px">Opinião de clientes</h1>   
-           <p style="font-size:20px; color:#102a68">Opinião de quem conhece, utiliza e aprova a nossa solução para dropshipping nacional.</p>                 
+          <h1 style="font-size:60px">Opinião de clientes</h1>   
+          <p style="font-size:20px; color:#102a68">Opinião de quem conhece, utiliza e aprova a nossa solução para dropshipping nacional.</p>                 
         </div>
         <div id="customers-testimonials" class="owl-carousel">
           <div class="item">
@@ -387,7 +420,9 @@
     </div>
   </div>
 </section>
-<!-- END OF TESTIMONIALS -->
+<!-- Cliente Ends -->
+
+<!-- Contato Start -->
 <section id="Contact" class="content-section">
   <div class="container">
     <div class="block-heading">
@@ -454,6 +489,7 @@
     </div>
   </div>
 </section>
+<!-- Contato Ends -->
 
 <!-- Auxiliar Footer -->
 <section id="hero" class="d-flex align-items-center">
@@ -472,7 +508,7 @@
       
     </div>
   </section>
-  <!-- Auxiliar Footer End  -->
+<!-- Auxiliar Footer End  -->
 
 <!-- Footer -->
 <footer class="footer text-center">
@@ -537,7 +573,7 @@
   </div>
 </footer>
 </template>
-
+<!-- Footer Ends -->
 
 <style>
 #app {
