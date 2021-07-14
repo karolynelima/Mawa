@@ -92,31 +92,32 @@
 
 <!-- How It Works Starts -->
 <section id="About" class="content-section">
-  <div class="container text-center">
+  <div class="container">
     <div class="row">
       <div class="col-lg-3 col-md-3 col-sm-6">
         <div class="block-heading">
-          <h1 style="font-size:60px">Como Funciona</h1>
+          <h1 style="font-size:60px; text-align:left">Como Funciona</h1>
         </div>
-        <p style="font-size:25px; color:#6c757d" class="lead text-left">Veja como funciona
+        <p style="font-size:25px; color:#6c757d; " class="lead text-left">Veja como funciona
           o processo da Mawa Post e descubra o caminho para levar sua loja ao próximo nível.</p>
         
       </div>
-      <div class="col-lg-5">
+      <div class="col-lg-4">
         <img src="assets/images/mawa2.png" class="img-fluid rounded mx-auto d-block img-responsive" alt="Imagem responsiva" >
       </div>
-      <div class="col-lg-4">
-        <h1>1º Encontre</h1>
-        <p>Encontre o produto que procura no nosso catálogo variado disponível pelos nossos
+      <div class="col-lg-5">
+        <h1 style="text-align:left">1º Encontre</h1>
+        <p class="lead text-left" style="font-size:16px">Encontre o produto que procura no nosso catálogo variado disponível pelos nossos
           fornecedores parceiros.
         </p>
-        <h1>2º Encontre</h1>
-        <p>Encontre o produto que procura no nosso catálogo variado disponível pelos nossos
-          fornecedores parceiros.
+        <h1 style="text-align:left">2º Importe</h1>
+        <p class="lead text-left" style="font-size:16px">Nossa plataforma oferece a opção de importar qualquer produto para sua loja com apenas um clique.
         </p>
-        <h1>3º Encontre</h1>
-        <p>Encontre o produto que procura no nosso catálogo variado disponível pelos nossos
-          fornecedores parceiros.
+        <h1 style="text-align:left">3º Venda Mais</h1>
+        <p class="lead text-left" style="font-size:16px">Todas as suas vendas estarão disponíveis em tempo real no painel de pedidos, sincronizando com seus fornecedores.
+        </p>
+        <h1 style="text-align:left">4º Acompanhe</h1>
+        <p class="lead text-left" style="font-size:16px">O fornecedor envia o produto direto da sua expedição para o cliente final através dos nossos parceiros logísticos.
         </p>
       </div>
     </div>
@@ -169,9 +170,9 @@
 <section id="About" class="content-section">
   <div class="container text-center">
     <div class="row">
-      <div class="col-lg-6 col-md-3 col-sm-6">
+      <div class="col-lg-5 col-md-3 col-sm-6">
         <div class="block-heading">
-          <h1 style="font-size:60px">Tudo que você Lojista precisa está aqui</h1>
+          <h1 style="font-size:60px; text-align:left">Tudo que você Lojista precisa está aqui</h1>
         </div>
         <p style="font-size:20px; color:#6c757d" class="lead text-left">
           <span class="fa fa-check"></span>
@@ -179,19 +180,19 @@
           comerciais por usar apenas a moeda brasileira, e não dólar (para drop nacional);
         </p>
         <p style="font-size:20px; color:#6c757d" class="lead text-left"><span class="fa fa-check"></span>
-        Facilita as transações
-          comerciais por usar apenas a moeda brasileira, e não dólar (para drop nacional);
+        Otimiza as operações logísticas, devido às menores distâncias;
         </p>
         <p style="font-size:20px; color:#6c757d" class="lead text-left"><span class="fa fa-check"></span>
-        Facilita as transações
-          comerciais por usar apenas a moeda brasileira, e não dólar (para drop nacional);
+        Opera com um tempo menor de entrega do produto ao cliente;
         </p>
         <p style="font-size:20px; color:#6c757d" class="lead text-left"><span class="fa fa-check"></span>
-        Facilita as transações
-          comerciais por usar apenas a moeda brasileira, e não dólar (para drop nacional);
-        </p>        
+        Tem uma operação de trocas dentro do território nacional;
+        </p>   
+        <p style="font-size:20px; color:#6c757d" class="lead text-left"><span class="fa fa-check"></span>
+        Não paga impostos de importação.
+        </p>     
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-7">
         <img src="assets/images/mawa3.png" class="img-fluid rounded mx-auto d-block img-responsive" alt="Imagem responsiva" >
       </div>      
     </div>
@@ -202,7 +203,7 @@
 <!-- Pricing Start -->
 <section class="pricing py-5"> 
   <div class="container">
-    <h1 style="color:white">Como funciona o plano gratuito?</h1>
+    <h1 style="font-size:60px; color:white">Como funciona o plano gratuito?</h1>
     <p style="color:white">Você tem uma semana para usúfruir da nossa plataforma de forma totalmente gratuita. Sinta-se a vontade para cancelar quando quiser.</p>
     <h1 style="color:white">14 dias GRÁTIS</h1>
     <hr>
@@ -270,55 +271,56 @@
     </div>
   </section>
 
-
-<!-- About Us Starts -->
-<section id="Services" class="content-section text-center">
-  <div class="container text-center">
+<!-- Sobre Starts -->
+<section id="Services" class="content-section">
+  <div class="container">
     <div class="row">      
-      <div class="col-lg-5 col-md-3 col-sm-6">    
+      <div class="col-lg-6 col-md-3 col-sm-6">    
         <div class="block-heading">
-          <h1 style="font-size:80px">Por que ser Mawa</h1><img src="assets/images/mawa4.png" class="img-fluid rounded mx-auto d-block img-responsive" alt="Imagem responsiva" >
-        </div>                 
-      </div>
-      <div class="col-lg-6 col-md-3 col-sm-6">        
-        <p style="font-size:22px; color:#6c757d" class="lead text-left">
-          <i class="fa fa-envelope" id="logo-email"></i>
-          Facilita as transações
-          comerciais por usar apenas a moeda brasileira, e não dólar (para drop nacional);
+          <h1 style="font-size:60px; text-align:left">Por que ser Mawa</h1>       
+          <p style="font-size:22px; color:#102a68" class="lead text-left">
+          <i class="fa fa-check" id="logo-email"></i>
+          Integrações estratégicas para o desenvolvimento do seu negócio.
         </p>
-        <p style="font-size:22px; color:#6c757d" class="lead text-left">
-          <i class="fa fa-envelope" id="logo-email"></i>
-          Facilita as transações
-          comerciais por usar apenas a moeda brasileira, e não dólar (para drop nacional);
-        </p>
-        <p style="font-size:22px; color:#6c757d" class="lead text-left">
-          <i class="fa fa-envelope" id="logo-email"></i>
-          Facilita as transações
-          comerciais por usar apenas a moeda brasileira, e não dólar (para drop nacional);
+        <p style="font-size:22px; color:#102a68" class="lead text-left">
+          <i class="fa fa-check" id="logo-email"></i>
+          Capacidade de gerar relatórios analíticos utilizando filtros configuráveis fornecendo informações
+          para sua tomada de decisão.
+        </p>                  
+        <p style="font-size:22px; color:#102a68" class="lead text-left">
+          <i class="fa fa-check" id="logo-email"></i>
+          Variedade de produtos nacionais e internacionais a preços 
+          acessíveis, permitindo uma margem competitiva.
         </p>  
-        <p style="font-size:22px; color:#6c757d" class="lead text-left">
-          <i class="fa fa-envelope" id="logo-email"></i>
-          Facilita as transações
-          comerciais por usar apenas a moeda brasileira, e não dólar (para drop nacional);
-        </p>
-        <p style="font-size:22px; color:#6c757d" class="lead text-left">
-          <i class="fa fa-envelope" id="logo-email"></i>
-          Facilita as transações
-          comerciais por usar apenas a moeda brasileira, e não dólar (para drop nacional);
-        </p>   
-        <p style="font-size:22px; color:#6c757d" class="lead text-left">
-          <i class="fa fa-envelope" id="logo-email"></i>
-          Facilita as transações
-          comerciais por usar apenas a moeda brasileira, e não dólar (para drop nacional);
-        </p>   
+        <p style="font-size:22px; color:#102a68" class="lead text-left">
+          <i class="fa fa-check" id="logo-email"></i>
+          Sistema logístico e eficiente permitimos aos nossos 
+          lojistas trabalharem com preços competitivos, quanto 
+          ao frete em todo o Brasil, devido aos nossos contratos 
+          personalizados com as melhores transportadoras do país.
+        </p>  
+        
+        </div>
       </div>
-      <!--<div class="col-lg-5">
-        <img src="assets/images/mawa3.png" class="img-fluid rounded mx-auto d-block" alt="Imagem responsiva" >
-      </div> -->     
-    </div> 
+      <div class="col-lg-6 col-md-3 col-sm-6">    
+        <div class="block-heading">               
+          <img src="assets/images/mawa4.png" class="img-responsive" alt="Imagem responsiva" >
+          <p style="font-size:22px; color:#102a68" class="lead text-left">
+          <i class="fa fa-check" id="logo-email"></i>
+          Trabalhe seu branding e criação de marca junto 
+          as alternativas fornecidas pela Mawa para te 
+          auxiliar da melhor forma.
+        </p>
+        <p style="font-size:22px; color:#102a68" class="lead text-left">
+          <i class="fa fa-check" id="logo-email"></i>
+          Suporte presente e acessível para te ajudar a qualquer momento.
+        </p>
+        </div>
+      </div>
+    </div>
   </div>
-</section>
-
+</section>        
+<!-- Sobre Ends -->
 
 <!-- CLIENTES -->
 <section id="Testimonials" class="content-section">
@@ -326,7 +328,8 @@
     <div class="row">
       <div class="col-sm-12">
         <div class="block-heading">
-           <h1 style="font-size:70px">Opinião de clientes</h1>          
+           <h1 style="font-size:60px">Opinião de clientes</h1>   
+           <p style="font-size:20px; color:#102a68">Opinião de quem conhece, utiliza e aprova a nossa solução para dropshipping nacional.</p>                 
         </div>
         <div id="customers-testimonials" class="owl-carousel">
           <div class="item">
@@ -388,8 +391,7 @@
 <section id="Contact" class="content-section">
   <div class="container">
     <div class="block-heading">
-      <h2>Entre em Contato</h2>
-      <p>...</p>
+      <h2 style="font-size:60px">Entre em Contato</h2>      
     </div>
     <div class="row">
       <div class="col-sm-12 col-md-6 col-lg-6">
