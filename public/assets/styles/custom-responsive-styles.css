@@ -18,13 +18,7 @@
   }
   .content-section-heading h2 {
     font-size: 30px;
-  }
-  #Portfolio .portfolio-wrapper .each-portfolio {
-    float: none;
-    margin: 0 auto 10px;
-    width: 100%;
-    display: block;
-  }
+  }  
   #customers-testimonials .item {
     margin-bottom: 0;
   }
@@ -70,13 +64,7 @@
   }
   .content-section-heading h2 {
     font-size: 30px;
-  }
-  #Portfolio .portfolio-wrapper .each-portfolio {
-    float: none;
-    margin: 0 auto 20px;
-    width: 100%;
-    display: block;
-  }
+  }  
   #customers-testimonials .item {
     margin-bottom: 0;
   }

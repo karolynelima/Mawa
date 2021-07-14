@@ -262,89 +262,7 @@ span {
   -o-transform: rotateX(0);
   transform: rotateX(0);
 }
-#Portfolio {
-  padding: 80px 0;
-}
-#Portfolio .each-portfolio {
-  position: relative;
-  width: calc(33.3% - 10px);
-  float: left;
-  margin: 0 0 35px;
-  text-decoration: none;
-  outline: 0 none;
-}
-#Portfolio .each-portfolio img {
-  width: 100%;
-  height: auto;
-}
-#Portfolio .each-portfolio span.zoom {
-  margin-top: 30px;
-}
-#Portfolio .each-portfolio .fa-search-plus {
-  font-size: 26px;
-  color: #fff;
-}
-#Portfolio .each-portfolio .p-title {
-  font-size: 22px;
-  color: #fff;
-  transition: top 0.3s ease-in-out;
-}
-#Portfolio .each-portfolio .p-desc {
-  color: #fff;
-  transition: top 0.3s ease-in-out;
-  margin: 0 0 20px;
-}
-#Portfolio .content {
-  position: relative;
-  width: 90%;
-  max-width: 400px;
-  margin: auto;
-  overflow: hidden;
-}
-#Portfolio .content .content-overlay {
-  background: rgba(0, 0, 0, 0.7);
-  position: absolute;
-  height: 99%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  opacity: 0;
-  -webkit-transition: all 0.4s ease-in-out 0s;
-  -moz-transition: all 0.4s ease-in-out 0s;
-  transition: all 0.4s ease-in-out 0s;
-}
-#Portfolio .content:hover .content-overlay {
-  opacity: 1;
-}
-#Portfolio .content-image {
-  width: 100%;
-}
-#Portfolio .content-details {
-  position: absolute;
-  text-align: center;
-  padding-left: 1em;
-  padding-right: 1em;
-  width: 100%;
-  top: 50%;
-  left: 50%;
-  opacity: 0;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  -moz-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
-}
-#Portfolio .content:hover .content-details {
-  top: 50%;
-  left: 50%;
-  opacity: 1;
-}
-#Portfolio .fadeIn-bottom {
-  top: 80%;
-}
+
 #customers-testimonials .shadow-effect {
   background: #fff;
   padding: 20px;
@@ -580,4 +498,70 @@ footer.footer p.small a:hover, footer.footer p.small a.focus {
   background: url("../images/hero2.jpg") top left;
   background-size: cover;
   position: relative;
+}
+
+section.pricing {
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+.pricing .card-title h5 {
+  color:#004085;
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  
+}
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+
+.pricing ul li {
+  margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+  color:#007bff!important
+}
+
+.pricing .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
 }

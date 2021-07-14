@@ -199,6 +199,59 @@
 </section>
 <!-- Logista Ends -->
 
+<!-- Pricing Start -->
+<section class="pricing py-5"> 
+  <div class="container">
+    <h1 style="color:white">Como funciona o plano gratuito?</h1>
+    <p style="color:white">Você tem uma semana para usúfruir da nossa plataforma de forma totalmente gratuita. Sinta-se a vontade para cancelar quando quiser.</p>
+    <h1 style="color:white">14 dias GRÁTIS</h1>
+    <hr>
+    <div class="row">      
+      <!-- Free Tier -->
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Plano</h5>
+            <h3 class="card-title text-muted text-uppercase text-center">Mensal</h3>            
+            <h6 class="card-price text-center">R$99,90<span class="period">/mês</span></h6>             
+            <hr>         
+            <a href="#" class="btn btn-block btn-primary text-uppercase">Assinar</a>
+          </div>
+        </div>
+      </div>
+      <!-- Plus Tier -->
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Plano</h5>
+            <h3 class="card-title text-muted text-uppercase text-center">Anual</h3>
+            <p>12x</p><h6 class="card-price text-center">R$79,90</h6>
+            <span class="period">ou R$923,70 à vista</span>            
+            <hr>  
+            <a href="#" class="btn btn-block btn-primary text-uppercase">Assinar</a>
+          </div>
+        </div>
+      </div>
+      <!-- Pro Tier -->
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Plano</h5>
+            <h3 class="card-title text-muted text-uppercase text-center">Semestral</h3>
+            <p>6x</p><h6 class="card-price text-center">R$92,87<span class="period">/month</span></h6>
+            <span class="period">ou R$539,40 à vista</span>
+            
+            <hr>   
+                    
+            <a href="#" class="btn btn-block btn-primary text-uppercase">Assinar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <!-- Auxiliar -->
 <section id="hero2" class="d-flex align-items-center">
     <div class="container" data-aos="zoom-out" data-aos-delay="100">
